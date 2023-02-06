@@ -1,0 +1,64 @@
+{
+    "packages": [
+        {
+            "name": "telepaycash/sdk-telepay-php",
+            "version": "v1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TelePay-cash/telepay-php.git",
+                "reference": "e1b8dc8a2aba32b1e9b2015405b874e1e1944a74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TelePay-cash/telepay-php/zipball/e1b8dc8a2aba32b1e9b2015405b874e1e1944a74",
+                "reference": "e1b8dc8a2aba32b1e9b2015405b874e1e1944a74",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0.3"
+            },
+            "time": "2023-02-05T13:55:02+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TelePay\\": "src/",
+                    "Examples\\": "examples/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raubel",
+                    "email": "raubel1993@gmail.com"
+                },
+                {
+                    "name": "Carlos Lugones",
+                    "email": "contact@carloslugones.com"
+                }
+            ],
+            "description": "Library to receive payments with TelePay",
+            "keywords": [
+                "payments",
+                "rest",
+                "sdk",
+                "telepay",
+                "toncoin"
+            ],
+            "support": {
+                "issues": "https://github.com/TelePay-cash/telepay-php/issues",
+                "source": "https://github.com/TelePay-cash/telepay-php/tree/v1.2.0"
+            },
+            "install-path": "../telepaycash/sdk-telepay-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
